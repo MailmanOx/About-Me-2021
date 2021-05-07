@@ -1,0 +1,99 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1b1b1b;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #444444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: bot
+}
+
+.main {
+  text-align:center;
+}
+
+body{
+  margin:0;
+  pa0;
+}
+
+.intro{
+  line-height:26pt;
+  padding:5px;
+  font-family: 'Roboto', sans-serif; 
+  padding-bottom:15px;
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+
+h2{
+  font-family: 'Nunito', sans-serif;
+}
+ 
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1B1B1B;
+   color: #EEEEEE;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+  }
+
+.cwd{
+  padding-bottom:40px;
+}
+
+.computer{
+  width:90%;
+}
+
+.synth{
+  width:90%;
+}
+
+.omori{
+  width:75%;
+  padding-bottom:40px;
+}
+
+.logos{
+  width:15%;
+}
